@@ -1,0 +1,47 @@
+body {
+background-color: #444;
+color: rgba(1, 225, 255, 0.603);
+margin : 20px;
+font : 32px 'Century Gothic', Futura, sans-serif;
+
+}
+.game {
+  display:  flex;
+  flex-direction: column;
+  align-items: center;
+  
+
+}
+
+.board-row {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.square{
+  background-color: #444;
+  color: gold;
+  border: 1px solid #333;
+  padding: 0;
+  font-size:  84px;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  box-shadow: 0px 5px 10px 0px rgba(0,255,255,0.7); 
+ 
+  
+}
+.square:hover{
+  transform: translateY(-5px);
+  box-shadow: 0px 10px 20px 2px rgba(0,255,255,0.7);
+}
+.square:focus {
+  outline: none;
+  background-color: #222;
+}
+
+.status {
+margin: 20px;
+font-size: 24px;
+
+}
